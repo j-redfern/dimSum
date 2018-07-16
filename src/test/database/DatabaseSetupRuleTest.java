@@ -19,11 +19,12 @@ import static java.util.Collections.emptyList;
 import static ru.yandex.qatools.embed.postgresql.distribution.Version.Main.V10;
 
 
-public class DatabaseSetupRule extends ExternalResource {
+public class DatabaseSetupRuleTest extends ExternalResource {
+    // Test db env variables - creates a test db automatically
     private String host = "localhost";
-    private String port = "5434";
-    private String user = "abc";
-    private String databaseName = "pizzaworks";
+    private String port = "1234";
+    private String user = "User1";
+    private String databaseName = "dimSumTest";
     private String password = "password";
 
     private EmbeddedPostgres postgres;
@@ -33,6 +34,7 @@ public class DatabaseSetupRule extends ExternalResource {
     @Override
     protected void before() throws Throwable {
         super.before();
+        //V10 is Version 10 of postgres
         postgres = new EmbeddedPostgres(V10);
         String url = postgres.start(host, Integer.parseInt(port), databaseName, user, password, emptyList());
 
