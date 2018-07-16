@@ -1,4 +1,6 @@
-public class dimSum {
+package model;
+
+public class DimSum {
 
     private String dimSumEngName;
     private String slug;
@@ -24,7 +26,7 @@ public class dimSum {
     private Boolean sweet;
     private Integer votes;
 
-    public dimSum(String dimSumEngName, String slug, String dimSumDescription, Boolean meat, Boolean duck, Boolean pork, Boolean chicken, Boolean goose, Boolean beef, Boolean fish, Boolean shellfish, Boolean scallop, Boolean prawn, Boolean crab, Boolean vegetarian, Boolean vegan, Boolean dumpling, Boolean bun, Boolean rice, Boolean adventurous, Boolean savoury, Boolean sweet, Integer votes) {
+    public DimSum(String dimSumEngName, String slug, String dimSumDescription, Boolean meat, Boolean duck, Boolean pork, Boolean chicken, Boolean goose, Boolean beef, Boolean fish, Boolean shellfish, Boolean scallop, Boolean prawn, Boolean crab, Boolean vegetarian, Boolean vegan, Boolean dumpling, Boolean bun, Boolean rice, Boolean adventurous, Boolean savoury, Boolean sweet, Integer votes) {
         this.dimSumEngName = dimSumEngName;
         this.slug = slug;
         this.dimSumDescription = dimSumDescription;
