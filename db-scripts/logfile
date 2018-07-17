@@ -1,0 +1,19 @@
+2018-07-17 10:43:34.551 BST [32730] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2018-07-17 10:43:34.551 BST [32730] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-07-17 10:43:34.551 BST [32730] LOG:  could not bind IPv6 address "::1": Address already in use
+2018-07-17 10:43:34.551 BST [32730] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-07-17 10:43:34.551 BST [32730] WARNING:  could not create listen socket for "localhost"
+2018-07-17 10:43:34.551 BST [32730] FATAL:  could not create any TCP/IP sockets
+2018-07-17 10:43:34.754 BST [32730] LOG:  database system is shut down
+2018-07-17 11:39:59.749 BST [32943] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2018-07-17 11:39:59.749 BST [32943] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-07-17 11:39:59.749 BST [32943] LOG:  could not bind IPv6 address "::1": Address already in use
+2018-07-17 11:39:59.749 BST [32943] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-07-17 11:39:59.749 BST [32943] WARNING:  could not create listen socket for "localhost"
+2018-07-17 11:39:59.749 BST [32943] FATAL:  could not create any TCP/IP sockets
+2018-07-17 11:39:59.750 BST [32943] LOG:  database system is shut down
+2018-07-17 11:42:14.841 BST [32964] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-07-17 11:42:14.841 BST [32964] LOG:  listening on IPv6 address "::1", port 5432
+2018-07-17 11:42:14.843 BST [32964] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-07-17 11:42:14.902 BST [32965] LOG:  database system was shut down at 2018-07-03 15:46:21 BST
+2018-07-17 11:42:14.958 BST [32964] LOG:  database system is ready to accept connections
